@@ -20,7 +20,9 @@ class VideoPlayer extends React.Component {
        <VideoPano
          style={{height: 2.25, width: 4}}
          source={{uri: 'http://localhost:9000/video/360.mp4'}}
-         playerState={this.state.playerState} />
+         playerState={this.state.playerState}
+         loop={true}
+        />
        <VideoControl
          style={{height: 10, width: 4}}
          playerState={this.state.playerState} />
