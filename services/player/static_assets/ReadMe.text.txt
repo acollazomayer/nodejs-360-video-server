@@ -1,1 +1,0 @@
-See the chapter for asset links.
