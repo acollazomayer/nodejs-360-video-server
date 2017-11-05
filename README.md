@@ -15,4 +15,4 @@ a 360 node js video server with a react vr video player
 Put videos in de video folder inside `services/server`
 
 Open the player in your browser with the url:
-`http://localhost:8081/vr/
+`http://localhost:8081/vr/`

@@ -1,0 +1,16 @@
+stream-service:
+    container_name: 'stream-service'
+    build: './services/server'
+    volumes:
+      - './services/server:/usr/src/app'
+      - './services/server/package.json:/usr/src/package.json'
+    ports:
+      - '9000:9000'
+player-service:
+    container_name: 'player-service'
+    build: './services/player'
+    volumes:
+      - './services/player:/usr/src/app'
+      - './services/player/package.json:/usr/src/package.json'
+    ports:
+      - '8081:8081'
