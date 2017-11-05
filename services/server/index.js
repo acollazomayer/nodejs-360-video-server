@@ -3,8 +3,6 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var http = require("http");
 const fs = require('fs');
-var spawn = require('child_process').spawn;
-const ffmpeg = require('fluent-ffmpeg')
 
 var app  = express();
 var portNumber = process.env.PORT || 9000;
